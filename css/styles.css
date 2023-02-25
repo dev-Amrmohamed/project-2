@@ -25,16 +25,9 @@ a {
 
 }
 
-
-
-
-
-
-
-
-
-
-
+img {
+   border-radius: 15px;
+}
 
 /*                                              */
 
@@ -298,12 +291,7 @@ a {
    transition: all .4s;
 }
 
-
-
 /*                                                                                                      */
-
-
-
 
 .list-drop2 {
    position: relative;
@@ -515,17 +503,12 @@ main {
    transform-origin: bottom;
 }
 
-
-
-
-
 .btn2 span {
    position: absolute;
    background: #ffffff;
    display: block;
 
 }
-
 
 .btn2 span:nth-child(1) {
    right: 0;
@@ -596,11 +579,7 @@ main {
    transform-origin: bottom;
 }
 
-
-
 section {
-   /* display: flex;
-   justify-content: center; */
    margin-top: 5rem;
 }
 
@@ -682,43 +661,11 @@ section {
    color: #8b8b8b;
 }
 
-/* 
-.buy {
-   position: relative;
-   transition: all 10s;
-   transform-style: preserve-3d;
-}
-
-.buy-pra {
-   backface-visibility: hidden;
-   background-color: tomato;
-   position: absolute;
-   visibility: visible;
-}
-
-.buy-pra p {
-   font-size: 20px;
-   font-family: 'EB Garamond', serif;
-   display: none;
-}
-
-.buy :hover.buy-pra {
-   transform: rotateX(180deg);
-   visibility: hidden;
-}
-
-.buy .buy-btn {
-   position: absolute;
-   width: 100%;
-   transform: rotateX(180deg);
-} */
-
 .buy button {
    background: none;
    border: none;
    font-size: 20px;
    font-family: 'EB Garamond', serif;
-   /* visibility: hidden; */
    margin-left: -123px;
    position: relative;
 }
@@ -760,8 +707,6 @@ section {
    visibility: visible;
    opacity: 1;
 }
-
-
 
 .products-2 {
    width: 610px;
@@ -860,27 +805,6 @@ section {
    color: #1d1d1d;
    font-style: italic;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .products-3 {
    width: 610px;
@@ -982,12 +906,6 @@ section {
    font-style: italic;
 }
 
-
-
-
-
-
-
 .products-4 {
    width: 600px;
    position: relative;
@@ -1035,7 +953,6 @@ section {
    border: none;
    font-size: 20px;
    font-family: 'EB Garamond', serif;
-   /* visibility: hidden; */
    margin-left: -123px;
    position: relative;
 }
@@ -1084,14 +1001,11 @@ section {
 
 .sec-3 {
    background-color: #9db97b;
-   /* position: relative; */
    width: 1903px;
    height: 780px;
 }
 
 .sec-3-content {
-   /* display: flex;
-   justify-content: flex-start; */
    position: relative;
 }
 
@@ -1106,7 +1020,6 @@ section {
    z-index: 2;
    width: 592px;
    height: 415px;
-   /* left: 279px; */
    top: 43px;
    object-fit: contain;
    object-position: 50% 50%;
@@ -1367,7 +1280,6 @@ section {
    position: absolute;
    top: 0;
    left: 0;
-   /* transform: scalex(0); */
    transform: rotateY(90deg);
    opacity: 1;
    transition: transform 0.5s;
@@ -1730,22 +1642,17 @@ section {
    background-color: #61876E;
 }
 
-
-
-
-
-
-
-
-
 .sec-9 {
-   margin-top: 17rem;
    background-image: url(../images/bac.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 150px 50px;
+   margin-top: 15rem;
 }
 
 .sec-9-title {
    text-align: left;
-   margin-top: 50px;
+
 }
 
 .sec-9-title p {
@@ -1769,25 +1676,82 @@ section {
 }
 
 
-/* .stores {
+.stores {
+   grid-gap: 30px 20px;
    display: flex;
-   justify-content: space-between;
    position: relative;
 }
 
+.stores-img {
+   margin-top: 20px;
+   width: 30rem;
+   height: 30rem;
+
+}
 
 .stores-img img {
-   width: 317px;
-   height: 429px;
-   position: absolute;
+   width: 100%;
+   height: 90%;
 }
 
 .stores-img-info {
    position: absolute;
-   z-index: 1;
-} */
+   width: 26rem;
+   display: flex;
+   justify-content: space-between;
+   padding: 0 2rem;
+   top: 24rem;
+}
+
+.stores-img-info-name {}
 
 
+.stores-img-info-name h3 {
+   font-family: "Josefin Sans", sans-serif;
+   font-weight: 600;
+   text-transform: uppercase;
+   color: #1d1d1d;
+   font-size: 15px;
+   line-height: 1.55em;
+   letter-spacing: .2em;
+   margin: 5px 0;
+}
+
+
+.stores-img-info-name p {
+   font-family: 'Open Sans', sans-serif;
+   color: #8b8b8b;
+   font-weight: 400;
+   font-size: 17px;
+   text-transform: capitalize;
+}
+
+.stores-img-info-name-price h3 {
+   font-family: "Josefin Sans", sans-serif;
+   font-weight: 600;
+   text-transform: uppercase;
+   color: #1d1d1d;
+   font-size: 15px;
+   line-height: 1.55em;
+   letter-spacing: .2em;
+   margin: 5px 0;
+}
+
+
+
+.sec-10 {
+   background-color: #bdced3;
+   padding: 15px 0 10px;
+   margin-top: 0px;
+}
+
+.sec-10 p {
+   font-size: 40px;
+   font-family: 'The Gwathmey', sans-serif;
+   font-weight: 400;
+   color: #ffffff;
+   text-transform: capitalize;
+}
 
 .brands {
    display: flex;
@@ -1797,6 +1761,118 @@ section {
 }
 
 
+
+.sec-11-title {
+   text-align: center;
+   margin-top: 10rem;
+}
+
+.sec-11-title p {
+   display: block;
+   margin: 0 0 12px;
+   font-family: "EB Garamond", serif;
+   font-size: 18px;
+   font-style: italic;
+   color: #8b8b8b;
+}
+
+.sec-11-title h2 {
+   font-family: "Josefin Sans", sans-serif;
+   font-weight: 600;
+   text-transform: uppercase;
+   color: #1d1d1d;
+   font-size: 29px;
+   line-height: 1.55em;
+   letter-spacing: .2em;
+   margin: 5px 0;
+}
+
+.news {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-top: 2rem;
+   margin-bottom: 5rem;
+}
+
+.news-1 {
+   position: relative;
+}
+
+.news-1 img {
+   width: 100%;
+   height: auto;
+   padding: 20px;
+}
+
+.overlay {
+   position: absolute;
+   width: 88%;
+   height: 87%;
+   top: 20px;
+   left: 19px;
+   bottom: 0;
+   right: 0;
+   text-align: center;
+   background-color: rgba(128, 128, 128, 0.7);
+   visibility: hidden;
+   opacity: 0;
+}
+
+
+.overlay-2 {
+   position: absolute;
+   width: 88%;
+   height: 83%;
+   top: 20px;
+   left: 19px;
+   bottom: 0;
+   right: 0;
+   text-align: center;
+   background-color: rgba(128, 128, 128, 0.7);
+   visibility: hidden;
+   opacity: 0;
+}
+
+.news-1:hover .overlay {
+   visibility: visible;
+   background-color: rgba(128, 128, 128, 0.7);
+   opacity: 1;
+   transition: all 2s;
+}
+
+.news-1:hover .overlay-2 {
+   visibility: visible;
+   background-color: rgba(128, 128, 128, 0.7);
+   opacity: 1;
+   transition: all 2s;
+}
+
+.news-1 .overlay i {
+   font-size: 20px;
+   width: 40px;
+   height: 40px;
+   line-height: 40px;
+   color: #e3e6f3;
+   outline: none;
+   text-align: center;
+   border-radius: 5px;
+   cursor: pointer;
+   margin-top: 9rem;
+}
+
+.news-1 .overlay-2 i {
+   font-size: 20px;
+   width: 40px;
+   height: 40px;
+   line-height: 40px;
+   color: #e3e6f3;
+   outline: none;
+   text-align: center;
+   border-radius: 5px;
+   cursor: pointer;
+   margin-top: 6rem;
+}
 
 footer {
    background-color: #020202;
